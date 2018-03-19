@@ -10,9 +10,10 @@
   <default revision="master"
       remote="rpigoogleassistant"
       sync-j="4" />
-      
-  <project path="." name="rpigassistant_main_module" remote="rpigoogleassistant"/>
-  <project path="." name="rpigassistant_mpvplayer_module" remote="rpigoogleassistant"/>
-  <project path="." name="rpigassistant_gmusicplayer_module" remote="rpigoogleassistant"/>
+  
+  <project path="platform_manifest" name="platform_manifest" remote="rpigoogleassistant"/>
+  <project path="gassistant" name="rpigassistant_main_module" remote="rpigoogleassistant"/>
+  <project path="mpvplayer" name="rpigassistant_mpvplayer_module" remote="rpigoogleassistant"/>
+  <project path="gmusicplayer" name="rpigassistant_gmusicplayer_module" remote="rpigoogleassistant"/>
   
 </manifest>

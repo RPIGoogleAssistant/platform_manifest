@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+           
+  <remote  name="rpigoogleassistant"
+	   fetch="https://github.com/RPIGoogleAssistant" />          
+     
+  <default revision="master"
+      remote="rpigoogleassistant"
+      sync-j="4" />
+      
+  <project path="." name="rpigassistant_main_module" remote="rpigoogleassistant"/>
+  <project path="." name="rpigassistant_mpvplayer_module" remote="rpigoogleassistant"/>
+  <project path="." name="rpigassistant_gmusicplayer_module" remote="rpigoogleassistant"/>
+  
+</manifest>
